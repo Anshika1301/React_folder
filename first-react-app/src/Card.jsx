@@ -1,4 +1,5 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function Card(props)
 {
@@ -10,7 +11,7 @@ function Card(props)
                     <div className="card_info">
                     <p className="card_title">{props.title}</p>
                     <h2 className="card_series">{props.seriesname}</h2>
-                    <a href={props.link} target="_blank"><button>Watch Now</button></a>
+                    <a href={props.link} target="_blank"><button className="btn btn-info btn-lg text-light">Watch Now</button></a>
                     </div>
                 </div>      
             </div>

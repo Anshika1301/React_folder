@@ -5,6 +5,7 @@ import Sdata from './Sdata';
 import './index.css';
 
 
+
 ReactDom.render(
   <>
     <h1 className="heading">List of top 4 netflix series in 2020</h1>

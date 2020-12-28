@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+}
+.heading{
+  background-color: white;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.slotmachine{
+  width:350px;
+  height: 300px;
+  border:3px solid black;
+  margin:3rem auto;
+  text-align: center;
+}
+
+.inner-slot{
+  height:4rem;
+}
